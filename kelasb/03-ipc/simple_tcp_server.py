@@ -19,4 +19,4 @@ while True :
     # Kirim balik ke client
     conn.send( data.encode('ascii') )
     # Tutup koneksi
-    conn.close()
+    # conn.close()
