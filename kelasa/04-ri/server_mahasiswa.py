@@ -40,5 +40,10 @@ def tambah_mahasiswa():
     data_mahasiswa.append(mahasiswa_baru)
     return "OK"
 
+# Get satu mahasiswa
+@app.route('/mahasiswa/<int:id>', methods=['GET'])
+def get_satu_mahasiswa(id):
+    return str(id)
+
 # Jalankan server Flask
 app.run(port=7777)
