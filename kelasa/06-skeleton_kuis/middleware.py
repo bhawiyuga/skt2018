@@ -15,4 +15,4 @@ t.start()
 
 print("Server HTTP run di port 7777")
 app.run(port=7777)
-# To Do : Bagian Subscriber
+# To Do : Bagian Server
